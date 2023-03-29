@@ -10,15 +10,15 @@
 
 void _prnt_int_mod(char length, int n)
 {
-  switch (length)
-    {
-    case 'l':
-      _prnt_l((long)n);
-      break;
-    case 'h':
-      _prnt_short_int((short)n);
-      break;
-    default:
-      _print_int(n);
-    }
+	switch (length)
+	{
+	case 'l':
+		_prnt_l((long)n);
+		break;
+	case 'h':
+		_prnt_short_int((short)n);
+		break;
+	default:
+		_print_int(n);
+	}
 }

@@ -8,16 +8,15 @@
  */
 int _prnt_oct(unsigned int n)
 {
-  int cp;
+	int cp;
 
-  cp = 0;
+	cp = 0;
 
-  if (n / 8)
-    cp += _prnt_oct(n / 8);
+	if (n / 8)
+		cp += _prnt_oct(n / 8);
 
-  _putchar((n % 8) + '0');
-  cp++;
+	_putchar((n % 8) + '0');
+	cp++;
 
-  return cp;
-
+	return cp;
 }

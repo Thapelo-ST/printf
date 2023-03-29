@@ -9,18 +9,16 @@
 
 int _prnt_uint(unsigned int n)
 {
-  int cp;
+	int cp;
 
-  cp = 0;
+	cp = 0;
+	if (n / 10)
+	{
+		cp += _prnt_uint(n / 10);
+	}
 
-  if (n / 10)
-    {
-      cp += _prnt_uint(n / 10);
-    }
+	_putchar((n % 10) + '0');
+	cp++;
 
-  _putchar((n % 10) + '0');
-  cp++;
-
-  return (cp);
-
+	return (cp);
 }

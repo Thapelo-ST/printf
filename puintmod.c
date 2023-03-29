@@ -9,17 +9,15 @@
  * */
 void _prnt_uint_mod(char length, unsigned int n)
 {
-  switch (length)
-    {
-    case 'l':
-      _prnt_ul((unsigned long)n);
-      break;
-    case 'h':
-      _prnt_us((unsigned short)n);
-      break;
-    default:
-      _prnt_uint(n);
-
-    }
-      
+	switch (length)
+	{
+	case 'l':
+		_prnt_ul((unsigned long)n);
+		break;
+	case 'h':
+		_prnt_us((unsigned short)n);
+		break;
+	default:
+		_prnt_uint(n);
+	}
 }

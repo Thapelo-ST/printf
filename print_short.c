@@ -8,10 +8,10 @@
  */
 void _prnt_short_int(short int n)
 {
-  if (n < 0)
-    {
-      _putchar('-');
-      n = -n;
-    }
-  _prnt_uint(n);
+	if (n < 0)
+	{
+		_putchar('-');
+		n = -n;
+	}
+	_prnt_uint(n);
 }

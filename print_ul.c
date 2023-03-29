@@ -7,9 +7,9 @@
  */
 void _prnt_ul(unsigned long n)
 {
-  if (n / 10)
-    _prnt_ul(n / 10);
+	if (n / 10)
+		_prnt_ul(n / 10);
 
-  _putchar((n % 10) + '0');
+	_putchar((n % 10) + '0');
 
 }

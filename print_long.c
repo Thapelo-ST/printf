@@ -8,18 +8,18 @@
  */
 void _prnt_l(long n)
 {
-  unsigned long m;
+	unsigned long m;
 
-  if (n < 0)
-    {
-      _putchar('-');
-      m = -n;
-    }
-  else
-    m = n;
+	if (n < 0)
+	{
+		_putchar('-');
+		m = -n;
+	}
+	else
+		m = n;
 
-  if (m / 10)
-    _prnt_l(m / 10);
+	if (m / 10)
+		_prnt_l(m / 10);
 
-  _putchar((m % 10) + '0');
+	_putchar((m % 10) + '0');
 }

@@ -1,0 +1,139 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Mar 28 18:38:17 2023
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25635 38537 256413 447000) (desktop . "208") "root@75b765b06eb9" nil nil ((((minibuffer . t) (tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 31) (width . 134) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "7B31-F70F-1FE3-6ECE") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 134) (pixel-height . 30) (total-width . 134) (total-height . 30) (normal-height . 1.0) (normal-width . 1.0) (buffer "print_ob.c" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 401) (start . 272))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/printf/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/printf/print_ob.c"
+  "print_ob.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  401
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38514 701678 719000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "printf"
+  'dired-mode
+  '(global-whitespace-mode)
+  1066
+  '(nil nil)
+  t
+  '("/printf/")
+  '((buffer-display-time 25635 38483 687476 739000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/printf/print_long.c"
+  "print_long.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  285
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38456 556187 368000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/printf/print_int.c"
+  "print_int.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  442
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38413 781837 587000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/printf/print_hex.c"
+  "print_hex.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  281
+  '(281 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38384 591243 680000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/printf/printf.c"
+  "printf.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  2434
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38286 806264 468000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/printf/print_binary.c"
+  "print_binary.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  244
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38238 566541 53000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/printf/pos.c"
+  "pos.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  409
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38188 831352 591000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (409 1))))
+
+(desktop-create-buffer 208
+  "/printf/pol.c"
+  "pol.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  404
+  '(404 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38080 216666 911000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/printf/pintm.c"
+  "pintm.c"
+  'c-mode
+  '(abbrev-mode global-whitespace-mode)
+  370
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25635 38017 697337 428000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
